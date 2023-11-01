@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <style>
+      * {
+         margin: 10px;
+        padding: auto;
+        box-sizing: border-box;
+      }
+      .main1 {
+       
+        background: #eee;
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 100%; */
+      }
+      .text{
+        text-align: center;
+        background: #eee;
+      }
+      .main2 {
+        width: 25%;
+        height: auto;
+        background: #eee;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
+      /* padding: 10px; */
+    
+      }
+      .main3 {
+        width: 75%;
+        background: #eee;
+
+        justify-content: center;
+        /* padding: 10px; */
+      }
+      .submain3 {
+        /* width: auto; */
+        background: #eee;
+        display: flex;
+        justify-content: center;
+        /* padding: 10px; */
+      }
+      .submain3n {
+        /* width: auto; */
+        background: #eee;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        /* padding: 10px; */
+      }
+      .submain3n1 {
+        /* width: auto; */
+        background: #eee;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        /* padding: 10px; */
+      }
+     
+      .box1 {
+        /* flex: 1; */
+        background-color: darkblue;
+        width: 30%;
+        padding: 20px;
+        border: solid 1px;
+      }
+      .second-row {
+        display: flex;
+        /* height: auto; */
+        
+      }
+      .box2 {
+        background-color: darkblue;
+        width:auto;
+        height: 30%;
+        /* padding: 20px; */
+        border: solid 1px;
+      }
+      .box3 {
+        background-color: darkblue;
+        width: 75px;
+        height: 75px;
+        /* padding: 20px; */
+        border: solid 1px;
+      }
+      .box4 {
+        background-color: darkblue;
+        width: 200px;
+        height: 70px;
+        /* padding: 20px; */
+        border: solid 1px;
+      }
+      .box5 {
+        background-color: darkblue;
+        width: 200px;
+        height: 70px;
+        /* padding: 20px; */
+        border: solid 1px;
+      
+        /* align-items: center;
+        justify-content: center; */
+      
+      }
+      
+
+      .third-row {
+        display: flex;
+      }
+
+      .fourth-row {
+        display: flex; 
+       
+      }
+      
+      .fifth-row {
+        display: flex;
+        
+      }
+      
+      .main4 {
+        background: #eee;
+        width: 60%;
+      }
+      .main5 {
+        background: #eee;
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        /* align-items: stretch; */
+      }
+      .main4two {
+        width: auto;
+        height: auto;
+      }
+      #onerow{
+        display: flex;
+        justify-content: center;
+      }
+      #tworow{
+        display: flex;
+        justify-content: center;
+      }
+      .box6 {
+        background: darkblue;
+        /* padding: 30px; */
+        width: 75px;
+        height: 75px;
+        border: solid 1px;
+        display:flex;
+      }
+      .box7{
+        background: darkblue;
+        /* padding: 30px; */
+        width: 50px;
+        height: 90px;
+        border: solid 1px;
+      
+        
+      }
+        
+      .box8{
+        background-color: #eee;
+        width: 33.3%;
+        height: 70px;
+      }
+  
+     .box9{
+      background-color: #eee;
+      width: 66.6%;
+      height: 100px;
+     }
+      .footer{
+        background: #eee;
+        height: 90px;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="text">
+    <div class="main1">
+      <div class="box1">1</div>
+
+      <div class="box1">2</div>
+
+      <div class="box1">3</div>
+    </div>
+    <div><p>header</p></div>
+    </div>
+    <div class="second-row">
+      <div class="main2">
+        <div class="box2">4</div>
+        <div class="box2">5</div>
+      </div>
+      <div class="main3">
+        <div class="submain3">
+          <div class="box3">6</div>
+          <div class="box3">7</div>
+          <div class="box3">8</div>
+          <div class="box3">9</div>
+        </div>
+        <div class="submain3n">
+          <div class="box4">10</div>
+
+          <div class="box4">11</div>
+        </div>
+        <div class="submain3n1">    
+           <div class="box5">12</div>
+      </div>
+      </div>
+    </div>
+
+    <div class="third-row">
+      <div class="main4"></div>
+      <div class="main4">
+        <div class="main4two" id="onerow">
+          <div class="box6">1</div>
+          <div class="box6">2</div>
+          <div class="box6">3</div>
+          <div class="box6">4</div>
+</div>
+<div class="main4two" id="tworow">
+
+          <div class="box6">5</div>
+          <div class="box6">6</div>
+          <div class="box6">7</div>
+          <div class="box6">8</div>
+        </div>
+      </div>
+      <div class="main4"></div>
+    </div>
+
+    <div class="fourth-row">
+      <div class="main5">
+        <div class="box7"></div>        
+        <div class="box7"></div>
+        <div class="box7"></div>
+
+        <div class="box7"></div>
+
+      </div>
+
+      <div class="main5"></div>
+      </div>
+    
+    <div class="fifth-row">
+
+        <div class="box8"></div>
+        <div class="box9"></div>
+        <div class="box8"></div>
+    </div>
+    <div class="footer">
+        <p>footer</p>
+    </div>
+  </body>
+</html>
